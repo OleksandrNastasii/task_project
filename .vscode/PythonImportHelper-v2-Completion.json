@@ -444,15 +444,6 @@
         "documentation": {}
     },
     {
-        "label": "response",
-        "kind": 5,
-        "importPath": "app.tests.tempCodeRunnerFile",
-        "description": "app.tests.tempCodeRunnerFile",
-        "peekOfCode": "response = client.delete(f'/users/{user_id}')\n            self.assertEqual(response.status_code, 200)",
-        "detail": "app.tests.tempCodeRunnerFile",
-        "documentation": {}
-    },
-    {
         "label": "TestGetAllUsers",
         "kind": 6,
         "importPath": "app.tests.users_get",
