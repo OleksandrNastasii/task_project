@@ -444,6 +444,15 @@
         "documentation": {}
     },
     {
+        "label": "response",
+        "kind": 5,
+        "importPath": "app.tests.tempCodeRunnerFile",
+        "description": "app.tests.tempCodeRunnerFile",
+        "peekOfCode": "response = client.delete(f'/users/{user_id}')\n            self.assertEqual(response.status_code, 200)",
+        "detail": "app.tests.tempCodeRunnerFile",
+        "documentation": {}
+    },
+    {
         "label": "TestGetAllUsers",
         "kind": 6,
         "importPath": "app.tests.users_get",
@@ -457,7 +466,7 @@
         "kind": 6,
         "importPath": "app.tests.user_create",
         "description": "app.tests.user_create",
-        "peekOfCode": "class TestCreateUser(unittest.TestCase):\n    @classmethod\n    def setUpClass(cls):\n        cls.server_process = subprocess.Popen([\"python\", \"main.py\"])\n        time.sleep(2)\n    def test_create_user(self):\n        user_data = {'name': 'John Doe', 'email': 'mksss333@xop.com'}\n        with app.test_client() as client:\n            response = client.post('/users', json=user_data)\n            user_id = response.json['id']",
+        "peekOfCode": "class TestCreateUser(unittest.TestCase):\n    @classmethod\n    def setUpClass(cls):\n        cls.server_process = subprocess.Popen([\"python\", \"main.py\"])\n        time.sleep(2)\n    def test_create_user(self):\n        user_data = {'name': 'John Doe', 'email': 'qwwe@wqgg.com'}\n        with app.test_client() as client:\n            response = client.post('/users', json=user_data)\n            print(\"Response json: \", response.json)",
         "detail": "app.tests.user_create",
         "documentation": {}
     },
@@ -473,10 +482,10 @@
     {
         "label": "TestGetUser",
         "kind": 6,
-        "importPath": "app.tests.user_recieve",
-        "description": "app.tests.user_recieve",
+        "importPath": "app.tests.user_get",
+        "description": "app.tests.user_get",
         "peekOfCode": "class TestGetUser(unittest.TestCase):\n    @classmethod\n    def setUpClass(cls):\n        cls.server_process = subprocess.Popen([\"python\", \"main.py\"])\n        time.sleep(2)\n    def test_get_user(self):\n        user_data = {'name': 'Bob', 'email': \"Mie312m@ghgh.com\"}\n        with app.test_client() as client:\n            response = client.post('/users', json=user_data)\n            self.assertEqual(response.status_code, 201)",
-        "detail": "app.tests.user_recieve",
+        "detail": "app.tests.user_get",
         "documentation": {}
     },
     {
@@ -565,7 +574,7 @@
         "kind": 2,
         "importPath": "app.user_routes.update",
         "description": "app.user_routes.update",
-        "peekOfCode": "def update_user(user_id):\n    user = UserModel.query.get(user_id)\n    if user is None:\n        return jsonify({'error': 'User not found'}), 404\n    user_data = request.get_json()\n    if not user_data:\n        return jsonify({'error': 'No data provided'}), 400\n    if 'email' in user_data:\n        updated_email = user_data['email']\n        existing_user = UserModel.query.filter_by(email=updated_email).first()",
+        "peekOfCode": "def update_user(user_id):\n    user = UserModel.query.get(user_id)\n    if user is None:\n        return jsonify({'error': 'User not found'}), 404\n    user_data = request.get_json()\n    if not user_data:\n        return jsonify({'error': 'No data provided'}), 400\n    email = user_data['email']\n    if not re.match(r\"[^@]+@[^@]+\\.[^@]+\", email):\n        return jsonify({'error': 'Invalid email format'}), 400",
         "detail": "app.user_routes.update",
         "documentation": {}
     },
@@ -574,7 +583,7 @@
         "kind": 5,
         "importPath": "app.user_routes.update",
         "description": "app.user_routes.update",
-        "peekOfCode": "update = Blueprint('update', __name__)\n@update.route('/users/<int:user_id>', methods=['PUT'])\ndef update_user(user_id):\n    user = UserModel.query.get(user_id)\n    if user is None:\n        return jsonify({'error': 'User not found'}), 404\n    user_data = request.get_json()\n    if not user_data:\n        return jsonify({'error': 'No data provided'}), 400\n    if 'email' in user_data:",
+        "peekOfCode": "update = Blueprint('update', __name__)\n@update.route('/users/<int:user_id>', methods=['PUT'])\ndef update_user(user_id):\n    user = UserModel.query.get(user_id)\n    if user is None:\n        return jsonify({'error': 'User not found'}), 404\n    user_data = request.get_json()\n    if not user_data:\n        return jsonify({'error': 'No data provided'}), 400\n    email = user_data['email']",
         "detail": "app.user_routes.update",
         "documentation": {}
     },

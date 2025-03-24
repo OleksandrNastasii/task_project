@@ -1,6 +1,7 @@
 from flask import Blueprint, request, jsonify
 from app.database.database import db_session
 from app.models.models import UserModel
+import re
 
 update = Blueprint('update', __name__)
 
@@ -14,12 +15,16 @@ def update_user(user_id):
     if not user_data:
         return jsonify({'error': 'No data provided'}), 400
 
+    email = user_data['email']
+    if not re.match(r"[^@]+@[^@]+\.[^@]+", email):
+        return jsonify({'error': 'Invalid email format'}), 400
+
     if 'email' in user_data:
         updated_email = user_data['email']
+        print("updated_email" , updated_email)
         existing_user = UserModel.query.filter_by(email=updated_email).first()
-        if existing_user and existing_user.id != user_id:
+        if existing_user and existing_user.id == user_id:
             return jsonify({'error': 'Email already exists'}), 400
-    
     
     for key, value in user_data.items():
         setattr(user, key, value)

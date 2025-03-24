@@ -1,1 +1,0 @@
-test_user_create("Jakie", "Ma@gamil.com")
