@@ -1,0 +1,590 @@
+[
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "scoped_session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "db_session",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "db_session",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "db_session",
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "isExtraImport": true,
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "isExtraImport": true,
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "isExtraImport": true,
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "isExtraImport": true,
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "isExtraImport": true,
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "isExtraImport": true,
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "peekOfCode": "def init_db():\n        Base.metadata.create_all(bind=engine)",
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "peekOfCode": "engine = create_engine(f\"mysql+pymysql://{os.getenv('MYSQL_USER')}:{os.getenv('MYSQL_PASSWORD')}@{os.getenv('MYSQL_DATABASE_IP')}:{os.getenv('MYSQL_DATABASE_PORT')}/{os.getenv('MYSQL_DATABASE')}\")\ndb_session = scoped_session(sessionmaker(autocommit=False, autoflush=False, bind=engine))\nBase = declarative_base()\nBase.query = db_session.query_property()\ndef init_db():\n        Base.metadata.create_all(bind=engine)",
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "db_session",
+        "kind": 5,
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "peekOfCode": "db_session = scoped_session(sessionmaker(autocommit=False, autoflush=False, bind=engine))\nBase = declarative_base()\nBase.query = db_session.query_property()\ndef init_db():\n        Base.metadata.create_all(bind=engine)",
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "peekOfCode": "Base = declarative_base()\nBase.query = db_session.query_property()\ndef init_db():\n        Base.metadata.create_all(bind=engine)",
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base.query",
+        "kind": 5,
+        "importPath": "app.database.database",
+        "description": "app.database.database",
+        "peekOfCode": "Base.query = db_session.query_property()\ndef init_db():\n        Base.metadata.create_all(bind=engine)",
+        "detail": "app.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "kind": 6,
+        "importPath": "app.models.models",
+        "description": "app.models.models",
+        "peekOfCode": "class UserModel(Base):\n    __tablename__ = \"Users\"\n    id = Column(Integer, primary_key=True)\n    name = Column(String(80))\n    email = Column(String(120), unique=True)\n    created_at = Column(DateTime, default=datetime.utcnow)\n    def show_user(self):\n        return {\n            'id': self.id,\n            'name' : self.name,",
+        "detail": "app.models.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestGetAllUsers",
+        "kind": 6,
+        "importPath": "app.tests.users_get",
+        "description": "app.tests.users_get",
+        "peekOfCode": "class TestGetAllUsers(unittest.TestCase):\n    @classmethod\n    def setUpClass(cls):\n        cls.server_process = subprocess.Popen([\"python\", \"main.py\"])\n        time.sleep(2)\n    def test_get_all_users(self):\n        with app.test_client() as client:\n            response = client.get('/users')\n            self.assertEqual(response.status_code, 200)\n    @classmethod",
+        "detail": "app.tests.users_get",
+        "documentation": {}
+    },
+    {
+        "label": "TestCreateUser",
+        "kind": 6,
+        "importPath": "app.tests.user_create",
+        "description": "app.tests.user_create",
+        "peekOfCode": "class TestCreateUser(unittest.TestCase):\n    @classmethod\n    def setUpClass(cls):\n        cls.server_process = subprocess.Popen([\"python\", \"main.py\"])\n        time.sleep(2)\n    def test_create_user(self):\n        user_data = {'name': 'John Doe', 'email': 'mksss333@xop.com'}\n        with app.test_client() as client:\n            response = client.post('/users', json=user_data)\n            user_id = response.json['id']",
+        "detail": "app.tests.user_create",
+        "documentation": {}
+    },
+    {
+        "label": "TestDeleteUser",
+        "kind": 6,
+        "importPath": "app.tests.user_delete",
+        "description": "app.tests.user_delete",
+        "peekOfCode": "class TestDeleteUser(unittest.TestCase):\n    @classmethod\n    def setUpClass(cls):\n        cls.server_process = subprocess.Popen([\"python\", \"main.py\"])\n        time.sleep(2)  \n    def test_delete_user(self):\n        user_data = {'name': 'Jane Doe', 'email': \"d123333s@g.com\"}\n        with app.test_client() as client:\n            response = client.post('/users', json=user_data)\n            self.assertEqual(response.status_code, 201)",
+        "detail": "app.tests.user_delete",
+        "documentation": {}
+    },
+    {
+        "label": "TestGetUser",
+        "kind": 6,
+        "importPath": "app.tests.user_recieve",
+        "description": "app.tests.user_recieve",
+        "peekOfCode": "class TestGetUser(unittest.TestCase):\n    @classmethod\n    def setUpClass(cls):\n        cls.server_process = subprocess.Popen([\"python\", \"main.py\"])\n        time.sleep(2)\n    def test_get_user(self):\n        user_data = {'name': 'Bob', 'email': \"Mie312m@ghgh.com\"}\n        with app.test_client() as client:\n            response = client.post('/users', json=user_data)\n            self.assertEqual(response.status_code, 201)",
+        "detail": "app.tests.user_recieve",
+        "documentation": {}
+    },
+    {
+        "label": "TestUpdateUser",
+        "kind": 6,
+        "importPath": "app.tests.user_update",
+        "description": "app.tests.user_update",
+        "peekOfCode": "class TestUpdateUser(unittest.TestCase):\n    @classmethod\n    def setUpClass(cls):\n        cls.server_process = subprocess.Popen([\"python\", \"main.py\"])\n        time.sleep(2)\n    def test_update_user(self):\n        user_data = {'name': 'Alice', 'email': \"jssonssdd44sssa@ususu.com\"}\n        updated_data = {'name': 'Alicia', 'email': \"jssss4dd4osnssa@ususu.com\"}\n        with app.test_client() as client:\n            response = client.post('/users', json=user_data)",
+        "detail": "app.tests.user_update",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.user_routes.create",
+        "description": "app.user_routes.create",
+        "peekOfCode": "def create_user():\n    user_data = request.get_json()\n    if not user_data:\n        return jsonify({'error': 'No data provided'}), 400\n    required_fields = ['email', 'name']\n    for field in required_fields:\n        if field not in user_data:\n            return jsonify({'error': f'{field} is required'}), 400\n    email = user_data['email']\n    if not re.match(r\"[^@]+@[^@]+\\.[^@]+\", email):",
+        "detail": "app.user_routes.create",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 5,
+        "importPath": "app.user_routes.create",
+        "description": "app.user_routes.create",
+        "peekOfCode": "create = Blueprint('create', __name__)\n@create.route('/users', methods=['POST'])\ndef create_user():\n    user_data = request.get_json()\n    if not user_data:\n        return jsonify({'error': 'No data provided'}), 400\n    required_fields = ['email', 'name']\n    for field in required_fields:\n        if field not in user_data:\n            return jsonify({'error': f'{field} is required'}), 400",
+        "detail": "app.user_routes.create",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "kind": 2,
+        "importPath": "app.user_routes.delete",
+        "description": "app.user_routes.delete",
+        "peekOfCode": "def delete_user(user_id):\n    user = UserModel.query.get(user_id)\n    if user is None:\n        return jsonify({'error': 'User not found'}), 404\n    try:\n        db_session.delete(user)\n        db_session.commit()\n        return jsonify({'message': f'User with ID {user_id} deleted successfully'}), 200\n    except Exception as e:\n        db_session.rollback() ",
+        "detail": "app.user_routes.delete",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 5,
+        "importPath": "app.user_routes.delete",
+        "description": "app.user_routes.delete",
+        "peekOfCode": "delete = Blueprint('delete', __name__)\n@delete.route('/users/<int:user_id>', methods=['DELETE'])\ndef delete_user(user_id):\n    user = UserModel.query.get(user_id)\n    if user is None:\n        return jsonify({'error': 'User not found'}), 404\n    try:\n        db_session.delete(user)\n        db_session.commit()\n        return jsonify({'message': f'User with ID {user_id} deleted successfully'}), 200",
+        "detail": "app.user_routes.delete",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "app.user_routes.getuser",
+        "description": "app.user_routes.getuser",
+        "peekOfCode": "def get_user(user_id):\n    try:\n        user = UserModel.query.get(user_id)\n        if user is None:\n            return jsonify({'error': 'User not found'}), 404\n        return jsonify({\n            'message': 'User retrieved successfully',\n            'user': user.show_user()\n        }), 200\n    except Exception as e:",
+        "detail": "app.user_routes.getuser",
+        "documentation": {}
+    },
+    {
+        "label": "getuser",
+        "kind": 5,
+        "importPath": "app.user_routes.getuser",
+        "description": "app.user_routes.getuser",
+        "peekOfCode": "getuser = Blueprint('getuser', __name__)\n@getuser.route('/users/<int:user_id>', methods=['GET'])\ndef get_user(user_id):\n    try:\n        user = UserModel.query.get(user_id)\n        if user is None:\n            return jsonify({'error': 'User not found'}), 404\n        return jsonify({\n            'message': 'User retrieved successfully',\n            'user': user.show_user()",
+        "detail": "app.user_routes.getuser",
+        "documentation": {}
+    },
+    {
+        "label": "get_users",
+        "kind": 2,
+        "importPath": "app.user_routes.getusers",
+        "description": "app.user_routes.getusers",
+        "peekOfCode": "def get_users():\n    try:\n        users = UserModel.query.all()\n        if not users:\n            return jsonify({'message': 'No users found'}), 404\n        return jsonify({\n            'message': 'Users retrieved successfully',\n            'users': [user.show_user() for user in users]\n        }), 200\n    except Exception as e:",
+        "detail": "app.user_routes.getusers",
+        "documentation": {}
+    },
+    {
+        "label": "getusers",
+        "kind": 5,
+        "importPath": "app.user_routes.getusers",
+        "description": "app.user_routes.getusers",
+        "peekOfCode": "getusers = Blueprint('getusers', __name__)\n@getusers.route('/users', methods=['GET'])\ndef get_users():\n    try:\n        users = UserModel.query.all()\n        if not users:\n            return jsonify({'message': 'No users found'}), 404\n        return jsonify({\n            'message': 'Users retrieved successfully',\n            'users': [user.show_user() for user in users]",
+        "detail": "app.user_routes.getusers",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "app.user_routes.update",
+        "description": "app.user_routes.update",
+        "peekOfCode": "def update_user(user_id):\n    user = UserModel.query.get(user_id)\n    if user is None:\n        return jsonify({'error': 'User not found'}), 404\n    user_data = request.get_json()\n    if not user_data:\n        return jsonify({'error': 'No data provided'}), 400\n    if 'email' in user_data:\n        updated_email = user_data['email']\n        existing_user = UserModel.query.filter_by(email=updated_email).first()",
+        "detail": "app.user_routes.update",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "kind": 5,
+        "importPath": "app.user_routes.update",
+        "description": "app.user_routes.update",
+        "peekOfCode": "update = Blueprint('update', __name__)\n@update.route('/users/<int:user_id>', methods=['PUT'])\ndef update_user(user_id):\n    user = UserModel.query.get(user_id)\n    if user is None:\n        return jsonify({'error': 'User not found'}), 404\n    user_data = request.get_json()\n    if not user_data:\n        return jsonify({'error': 'No data provided'}), 400\n    if 'email' in user_data:",
+        "detail": "app.user_routes.update",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = create_app()\nif __name__ == '__main__':\n    app.run(host=\"0.0.0.0\", debug=True)",
+        "detail": "main",
+        "documentation": {}
+    }
+]

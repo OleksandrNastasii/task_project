@@ -1,0 +1,167 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "User Management API",
+      "description": "API for creating, retrieving, updating, and deleting users.",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/users": {
+        "post": {
+          "summary": "Create a new user",
+          "operationId": "createUser",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string",
+                      "example": "user@example.com"
+                    },
+                    "name": {
+                      "type": "string",
+                      "example": "John Doe"
+                    }
+                  },
+                  "required": ["email", "name"]
+                }
+              }
+            }
+          },
+          "responses": {
+            "201": {
+              "description": "User created successfully"
+            },
+            "400": {
+              "description": "Bad request (e.g. missing required fields, invalid email format, or email already exists)"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          }
+        },
+        "get": {
+          "summary": "Get a list of users",
+          "operationId": "getUsers",
+          "responses": {
+            "200": {
+              "description": "Users retrieved successfully"
+            },
+            "404": {
+              "description": "No users found"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          }
+        }
+      },
+      "/users/{user_id}": {
+        "get": {
+          "summary": "Get a user by ID",
+          "operationId": "getUserById",
+          "parameters": [
+            {
+              "name": "user_id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "integer",
+                "example": 1
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "User retrieved successfully"
+            },
+            "404": {
+              "description": "User not found"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          }
+        },
+        "put": {
+          "summary": "Update an existing user",
+          "operationId": "updateUser",
+          "parameters": [
+            {
+              "name": "user_id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "integer",
+                "example": 1
+              }
+            }
+          ],
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string",
+                      "example": "user@example.com"
+                    },
+                    "name": {
+                      "type": "string",
+                      "example": "John Doe"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "User updated successfully"
+            },
+            "400": {
+              "description": "Bad request (e.g. invalid email format or email already exists)"
+            },
+            "404": {
+              "description": "User not found"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          }
+        },
+        "delete": {
+          "summary": "Delete a user",
+          "operationId": "deleteUser",
+          "parameters": [
+            {
+              "name": "user_id",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "integer",
+                "example": 1
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "User deleted successfully"
+            },
+            "404": {
+              "description": "User not found"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          }
+        }
+      }
+    }
+  }
+  

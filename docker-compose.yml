@@ -1,0 +1,45 @@
+
+services:
+  flask_app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: flask
+    restart: always
+    depends_on:
+      - db
+    environment:
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_DATABASE_IP: db  
+      MYSQL_DATABASE_PORT: 3306
+    ports:
+      - "5000:5000"
+    networks:
+      - mynetwork
+    env_file:
+      - .env
+
+  db:
+    image: mysql:8.0
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3306:3306"
+    networks:
+      - mynetwork
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+networks:
+  mynetwork:
+    driver: bridge
+
+volumes:
+  mysql_data:
