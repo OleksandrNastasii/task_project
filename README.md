@@ -5,11 +5,11 @@ python -m venv venv
 pip install -r requirements
 
 
-run server
+run server:
 
 python main.py
 
 
-run via docker
+run via docker:
 
 docker-compose up --build
